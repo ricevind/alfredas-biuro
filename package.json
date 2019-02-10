@@ -1,0 +1,24 @@
+{
+  "name": "alfredasbiuro",
+  "version": "1.0.0",
+  "description": "Alfreda Sobierajska biuro rachunkowe - landing",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
+  },
+  "author": "MK",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^7.0.3",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-define": "^1.3.1",
+    "prettier": "^1.16.4"
+  }
+}
