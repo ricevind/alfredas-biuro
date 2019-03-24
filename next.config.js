@@ -5,12 +5,15 @@ const { "process.env.BACKEND_URL": BACKEND_URL } = require("./env-config");
 
 const debug = process.env.NODE_ENV !== "production";
 
-module.exports ={
+module.exports = {
   exportPathMap: function() {
     return {
       "/": { page: "/" },
-      "/about": { page: "/about" }
+      "/cennik": { page: "/cennik" },
+      "/kontakt": { page: "/kontakt" },
+      "/o-nas": { page: "/o-nas" },
+      "/uslugi": { page: "/uslugi" }
     };
   },
-  assetPrefix: BACKEND_URL
+  assetPrefix: `https://ricevind.github.io${BACKEND_URL}`
 };

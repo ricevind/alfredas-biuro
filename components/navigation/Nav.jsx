@@ -1,7 +1,7 @@
 import css from "styled-jsx/css";
 import NavLink from "./NavLink";
 import { prefixHref } from "../../utils/prefixHref";
-import { withRouter } from "next/router";
+import { rhythmUnit } from "../../styles/typography";
 
 const NavStyles = css`
   nav {
@@ -9,7 +9,14 @@ const NavStyles = css`
     flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
+    margin-top: ${rhythmUnit()};
+    margin-bottom: ${rhythmUnit()};
   }
+  
+  nav > :global(a:not(:first-child)) {
+      margin-left: 20px;
+  }
+  
 `;
 
 const pagesUrls = {

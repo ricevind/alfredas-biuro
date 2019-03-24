@@ -14,7 +14,7 @@ export const fontSizes = {
 };
 
 export const rhythmUnit = (ordinal = 0) => `
-  calc(var(--font-size) * ${lineHeight * mode ** ordinal}
+  calc(var(--font-size) * ${lineHeight * mode ** ordinal})
 `;
 
 export const paragraphCSS = () => cssPartial`
