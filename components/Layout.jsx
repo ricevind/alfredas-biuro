@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import { body, root, html } from "../styles/base";
+import { prefixHref } from "../utils/prefixHref";
 
 export default ({ children, title = "This is the default title" }) => (
   <>
@@ -12,7 +13,7 @@ export default ({ children, title = "This is the default title" }) => (
         href="https://fonts.googleapis.com/css?family=Nunito+Sans|Poppins&amp;subset=latin-ext"
         rel="stylesheet"
       />
-      <link href="/static/reset.css" rel="stylesheet" />
+      <link href={prefixHref`/static/reset.css`} rel="stylesheet" />
     </Head>
 
     {children}

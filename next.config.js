@@ -15,5 +15,5 @@ module.exports = {
       "/uslugi": { page: "/uslugi" }
     };
   },
-  assetPrefix: `https://ricevind.github.io${BACKEND_URL}`
+  assetPrefix: BACKEND_URL
 };

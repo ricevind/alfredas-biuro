@@ -12,11 +12,10 @@ const NavStyles = css`
     margin-top: ${rhythmUnit()};
     margin-bottom: ${rhythmUnit()};
   }
-  
+
   nav > :global(a:not(:first-child)) {
-      margin-left: 20px;
+    margin-left: 20px;
   }
-  
 `;
 
 const pagesUrls = {
@@ -29,10 +28,18 @@ const pagesUrls = {
 export default function Nav() {
   return (
     <nav>
-      <NavLink href={prefixHref(pagesUrls.about)}>O nas</NavLink>
-      <NavLink href={prefixHref(pagesUrls.services)}>Usługi</NavLink>
-      <NavLink href={prefixHref(pagesUrls.priceList)}>Cennik</NavLink>
-      <NavLink href={prefixHref(pagesUrls.contact)}>Kontakt</NavLink>
+      <NavLink as={pagesUrls.about} href={prefixHref(pagesUrls.about)}>
+        O nas
+      </NavLink>
+      <NavLink as={pagesUrls.services} href={prefixHref(pagesUrls.services)}>
+        Usługi
+      </NavLink>
+      <NavLink as={pagesUrls.priceList} href={prefixHref(pagesUrls.priceList)}>
+        Cennik
+      </NavLink>
+      <NavLink as={pagesUrls.contact} href={prefixHref(pagesUrls.contact)}>
+        Kontakt
+      </NavLink>
       <style jsx>{NavStyles}</style>
     </nav>
   );
