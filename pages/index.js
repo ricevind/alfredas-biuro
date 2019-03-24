@@ -1,8 +1,14 @@
-import Link from "next/link";
-import Layout from "../components/Layout";
+import React from "react";
+import Router from "next/router";
 
-export default () => (
-  <Layout>
-    <div>Hello World. </div>
-  </Layout>
-);
+import { prefixHref } from "../utils/prefixHref";
+import Layout from "../components/Layout";
+import Nav from "../components/navigation/Nav";
+
+export default function Index() {
+  return (
+    <Layout>
+      <Nav />
+    </Layout>
+  );
+}
