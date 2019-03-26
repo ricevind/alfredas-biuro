@@ -231,7 +231,6 @@ var NavLink = Object(next_router__WEBPACK_IMPORTED_MODULE_7__["withRouter"])(fun
   };
 
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    as: href,
     href: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_5__["prefixHref"])(_templateObject(), href),
     __source: {
       fileName: _jsxFileName,
