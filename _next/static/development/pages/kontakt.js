@@ -137,7 +137,7 @@ function Nav() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_NavLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    as: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_3__["prefixHref"])(pagesUrls.about),
+    as: pagesUrls.about,
     href: pagesUrls.about,
     __source: {
       fileName: _jsxFileName,
@@ -145,7 +145,7 @@ function Nav() {
     },
     __self: this
   }, "O nas"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_NavLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    as: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_3__["prefixHref"])(pagesUrls.services),
+    as: pagesUrls.services,
     href: pagesUrls.services,
     __source: {
       fileName: _jsxFileName,
@@ -153,7 +153,7 @@ function Nav() {
     },
     __self: this
   }, "Us\u0142ugi"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_NavLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    as: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_3__["prefixHref"])(pagesUrls.priceList),
+    as: pagesUrls.priceList,
     href: pagesUrls.priceList,
     __source: {
       fileName: _jsxFileName,
@@ -161,7 +161,7 @@ function Nav() {
     },
     __self: this
   }, "Cennik"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_NavLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    as: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_3__["prefixHref"])(pagesUrls.contact),
+    as: pagesUrls.contact,
     href: pagesUrls.contact,
     __source: {
       fileName: _jsxFileName,
@@ -218,7 +218,7 @@ var NavLink = Object(next_router__WEBPACK_IMPORTED_MODULE_6__["withRouter"])(fun
   };
 
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    as: as,
+    as: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_4__["prefixHref"])(as),
     href: href,
     __source: {
       fileName: _jsxFileName,
@@ -232,7 +232,7 @@ var NavLink = Object(next_router__WEBPACK_IMPORTED_MODULE_6__["withRouter"])(fun
       lineNumber: 36
     },
     __self: this
-  }, router.pathname)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, children)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: navLinkStyles.__hash,
     __self: this
   }, navLinkStyles));
