@@ -145,8 +145,8 @@ function Nav() {
     },
     __self: this
   }, "O nas"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_NavLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    as: pagesUrls.services,
-    href: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_3__["prefixHref"])(pagesUrls.services),
+    as: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_3__["prefixHref"])(pagesUrls.services),
+    href: pagesUrls.services,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
