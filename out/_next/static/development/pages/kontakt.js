@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/o-nas.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/kontakt.js"],{
 
 /***/ "./components/Layout.jsx":
 /*!*******************************!*\
@@ -6826,21 +6826,21 @@ module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fo-nas&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fo-nas.js!./":
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fo-nas&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fo-nas.js ***!
-  \******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fkontakt&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fkontakt.js!./":
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fkontakt&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fkontakt.js ***!
+  \**********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/o-nas", function() {
-      var page = __webpack_require__(/*! ./pages/o-nas.js */ "./pages/o-nas.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/kontakt", function() {
+      var page = __webpack_require__(/*! ./pages/kontakt.js */ "./pages/kontakt.js")
       if(true) {
-        module.hot.accept(/*! ./pages/o-nas.js */ "./pages/o-nas.js", function() {
-          if(!next.router.components["/o-nas"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/o-nas.js */ "./pages/o-nas.js")
-          next.router.update("/o-nas", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/kontakt.js */ "./pages/kontakt.js", function() {
+          if(!next.router.components["/kontakt"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/kontakt.js */ "./pages/kontakt.js")
+          next.router.update("/kontakt", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -12002,10 +12002,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/o-nas.js":
-/*!************************!*\
-  !*** ./pages/o-nas.js ***!
-  \************************/
+/***/ "./pages/kontakt.js":
+/*!**************************!*\
+  !*** ./pages/kontakt.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12015,7 +12015,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.jsx");
 /* harmony import */ var _components_navigation_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/navigation/Nav */ "./components/navigation/Nav.jsx");
-var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/pages/o-nas.js";
+var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/pages/kontakt.js";
 
 
 
@@ -12281,14 +12281,14 @@ function prefixHref(parts) {
 
 /***/ }),
 
-/***/ 4:
-/*!**********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fo-nas&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fo-nas.js ***!
-  \**********************************************************************************************************************************************/
+/***/ 5:
+/*!**************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fkontakt&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fkontakt.js ***!
+  \**************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fo-nas&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fo-nas.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fo-nas&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fo-nas.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fkontakt&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fkontakt.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fkontakt&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fkontakt.js!./");
 
 
 /***/ }),
@@ -12304,5 +12304,5 @@ module.exports = dll_bed7e68b081ee2342acd;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=o-nas.js.map
+},[[5,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=kontakt.js.map
