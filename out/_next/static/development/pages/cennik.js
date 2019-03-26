@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/uslugi.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/cennik.js"],{
 
 /***/ "./components/Layout.jsx":
 /*!*******************************!*\
@@ -6814,21 +6814,21 @@ module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuslugi&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcennik&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fcennik.js!./":
 /*!********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuslugi&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcennik&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fcennik.js ***!
   \********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/uslugi", function() {
-      var page = __webpack_require__(/*! ./pages/uslugi.js */ "./pages/uslugi.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/cennik", function() {
+      var page = __webpack_require__(/*! ./pages/cennik.js */ "./pages/cennik.js")
       if(true) {
-        module.hot.accept(/*! ./pages/uslugi.js */ "./pages/uslugi.js", function() {
-          if(!next.router.components["/uslugi"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/uslugi.js */ "./pages/uslugi.js")
-          next.router.update("/uslugi", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/cennik.js */ "./pages/cennik.js", function() {
+          if(!next.router.components["/cennik"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/cennik.js */ "./pages/cennik.js")
+          next.router.update("/cennik", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -11990,9 +11990,9 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/uslugi.js":
+/***/ "./pages/cennik.js":
 /*!*************************!*\
-  !*** ./pages/uslugi.js ***!
+  !*** ./pages/cennik.js ***!
   \*************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -12003,7 +12003,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.jsx");
 /* harmony import */ var _components_navigation_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/navigation/Nav */ "./components/navigation/Nav.jsx");
-var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/pages/uslugi.js";
+var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/pages/cennik.js";
 
 
 
@@ -12269,14 +12269,14 @@ function prefixHref(parts) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 1:
 /*!************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fuslugi&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi.js ***!
+  !*** multi next-client-pages-loader?page=%2Fcennik&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fcennik.js ***!
   \************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fuslugi&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuslugi&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcennik&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fcennik.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcennik&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fcennik.js!./");
 
 
 /***/ }),
@@ -12292,5 +12292,5 @@ module.exports = dll_bed7e68b081ee2342acd;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=uslugi.js.map
+},[[1,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=cennik.js.map
