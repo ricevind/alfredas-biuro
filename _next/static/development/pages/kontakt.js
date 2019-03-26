@@ -232,7 +232,7 @@ var NavLink = Object(next_router__WEBPACK_IMPORTED_MODULE_6__["withRouter"])(fun
       lineNumber: 36
     },
     __self: this
-  }, children)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  }, router.pathname)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     id: navLinkStyles.__hash,
     __self: this
   }, navLinkStyles));
