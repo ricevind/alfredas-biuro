@@ -153,16 +153,16 @@ function Nav() {
     },
     __self: this
   }, "Us\u0142ugi"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_NavLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    as: pagesUrls.priceList,
-    href: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_3__["prefixHref"])(pagesUrls.priceList),
+    as: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_3__["prefixHref"])(pagesUrls.priceList),
+    href: pagesUrls.priceList,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
     },
     __self: this
   }, "Cennik"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_NavLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    as: pagesUrls.contact,
-    href: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_3__["prefixHref"])(pagesUrls.contact),
+    as: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_3__["prefixHref"])(pagesUrls.contact),
+    href: pagesUrls.contact,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40
