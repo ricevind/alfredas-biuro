@@ -1,39 +1,44 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/o-nas.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/uslugi/ubezpieczenia.js"],{
 
-/***/ "./components/Paragraph.jsx":
-/*!**********************************!*\
-  !*** ./components/Paragraph.jsx ***!
-  \**********************************/
-/*! exports provided: Paragraph */
+/***/ "./components/Slide.jsx":
+/*!******************************!*\
+  !*** ./components/Slide.jsx ***!
+  \******************************/
+/*! exports provided: Slide */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Paragraph", function() { return Paragraph; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Slide", function() { return Slide; });
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_typography__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/typography */ "./styles/typography.js");
-var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/components/Paragraph.jsx";
+var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/components/Slide.jsx";
 
 
-
-var Paragraph = function Paragraph(_ref) {
-  var children = _ref.children;
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["2277799525", [Object(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["paragraphCSS"])()]]]),
+function Slide(_ref) {
+  var shouldSlide = _ref.shouldSlide,
+      children = _ref.children;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2400774860" + " " + "fadeIn-wrapper ".concat(shouldSlide && "active"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2400774860" + " " + "fadeIn",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
-  }, children, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "2277799525",
-    dynamic: [Object(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["paragraphCSS"])()],
+  }, children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2400774860",
     __self: this
-  }, "p.__jsx-style-dynamic-selector{".concat(Object(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["paragraphCSS"])(), ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JpY2V2aW5kL1dlYnN0b3JtUHJvamVjdHMvYWxmcmVkYXNiaXVyby9jb21wb25lbnRzL1BhcmFncmFwaC5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBTU8sQUFJUSw2QkFBQyIsImZpbGUiOiIvaG9tZS9yaWNldmluZC9XZWJzdG9ybVByb2plY3RzL2FsZnJlZGFzYml1cm8vY29tcG9uZW50cy9QYXJhZ3JhcGguanN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgcGFyYWdyYXBoQ1NTIH0gZnJvbSBcIi4uL3N0eWxlcy90eXBvZ3JhcGh5XCI7XG5cbmV4cG9ydCBjb25zdCBQYXJhZ3JhcGggPSAoeyBjaGlsZHJlbiB9KSA9PiAoXG4gIDxwPlxuICAgIHtjaGlsZHJlbn1cbiAgICA8c3R5bGUganN4PlxuICAgICAge2BcbiAgICAgICAgcCB7XG4gICAgICAgICAgJHtwYXJhZ3JhcGhDU1MoKX1cbiAgICAgICAgfVxuICAgICAgYH1cbiAgICA8L3N0eWxlPlxuICA8L3A+XG4pO1xuIl19 */\n/*@ sourceURL=/home/ricevind/WebstormProjects/alfredasbiuro/components/Paragraph.jsx */")));
-};
+  }, "@-webkit-keyframes fadeIn-jsx-2400774860{0%{-webkit-transform:translateY(-250%);-ms-transform:translateY(-250%);transform:translateY(-250%);}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);}}@keyframes fadeIn-jsx-2400774860{0%{-webkit-transform:translateY(-250%);-ms-transform:translateY(-250%);transform:translateY(-250%);}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);}}.fadeIn-wrapper.jsx-2400774860{position:relative;}.active.jsx-2400774860 .fadeIn.jsx-2400774860{position:relative;-webkit-animation:fadeIn-jsx-2400774860 1s;animation:fadeIn-jsx-2400774860 1s;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JpY2V2aW5kL1dlYnN0b3JtUHJvamVjdHMvYWxmcmVkYXNiaXVyby9jb21wb25lbnRzL1NsaWRlLmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFLUyxBQUkyQyxBQUlKLEFBTVIsQUFJQSxrQkFIcEIsQUFJc0Isa0VBVnBCLFlBSkEsQUFlRiIsImZpbGUiOiIvaG9tZS9yaWNldmluZC9XZWJzdG9ybVByb2plY3RzL2FsZnJlZGFzYml1cm8vY29tcG9uZW50cy9TbGlkZS5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZnVuY3Rpb24gU2xpZGUoeyBzaG91bGRTbGlkZSwgY2hpbGRyZW4gfSkge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPXtgZmFkZUluLXdyYXBwZXIgJHtzaG91bGRTbGlkZSAmJiBcImFjdGl2ZVwifWB9PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJmYWRlSW5cIj57Y2hpbGRyZW59PC9kaXY+XG4gICAgICA8c3R5bGUganN4PlxuICAgICAgICB7YFxuICAgICAgICAgIEBrZXlmcmFtZXMgZmFkZUluIHtcbiAgICAgICAgICAgIDAlIHtcbiAgICAgICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0yNTAlKTtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgMTAwJSB7XG4gICAgICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuZmFkZUluLXdyYXBwZXIge1xuICAgICAgICAgICAgLy8gb3ZlcmZsb3c6IGhpZGRlbjtcbiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuYWN0aXZlIC5mYWRlSW4ge1xuICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICAgICAgYW5pbWF0aW9uOiBmYWRlSW4gMXM7XG4gICAgICAgICAgfVxuICAgICAgICBgfVxuICAgICAgPC9zdHlsZT57XCIgXCJ9XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXX0= */\n/*@ sourceURL=/home/ricevind/WebstormProjects/alfredasbiuro/components/Slide.jsx */"), " ");
+}
 
 /***/ }),
 
@@ -386,52 +391,74 @@ var MainAnchor = function MainAnchor(_ref2) {
 
 /***/ }),
 
-/***/ "./components/typography/Header.jsx":
-/*!******************************************!*\
-  !*** ./components/typography/Header.jsx ***!
-  \******************************************/
-/*! exports provided: Header */
+/***/ "./components/navigation/nav-link/NavLinkSecondary.jsx":
+/*!*************************************************************!*\
+  !*** ./components/navigation/nav-link/NavLinkSecondary.jsx ***!
+  \*************************************************************/
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Header", function() { return Header; });
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _styles_typography__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../styles/typography */ "./styles/typography.js");
-var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/components/typography/Header.jsx";
+/* harmony import */ var _styles_typography__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../styles/typography */ "./styles/typography.js");
+/* harmony import */ var _styles_colors__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../styles/colors */ "./styles/colors.js");
+/* harmony import */ var _NavLink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NavLink */ "./components/navigation/nav-link/NavLink.jsx");
+var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/components/navigation/nav-link/NavLinkSecondary.jsx";
 
 
 
-var Header = function Header(_ref) {
-  var size = _ref.size,
+
+
+
+var NavLinkSecondary = function NavLinkSecondary(_ref) {
+  var as = _ref.as,
+      href = _ref.href,
       children = _ref.children;
-  var HTag = sizeToHeader(size);
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(HTag, {
-    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["1508907014", [HTag, Object(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["headerCSS"])(size)]]]),
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_NavLink__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    as: as,
+    href: href,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 9
+    },
+    __self: this
+  }, function (isActive) {
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SecondaryAnchor, {
+      isActive: isActive,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      },
+      __self: this
+    }, children);
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (NavLinkSecondary);
+var navLinkSecondaryStyles = new String("a.jsx-2634865677{position:relative;-webkit-text-decoration:none;text-decoration:none;line-height:".concat(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["lineHeight"], ";font-family:").concat(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["fonts"].body, ";font-size:").concat(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["fontSizes"].s, ";color:").concat(_styles_colors__WEBPACK_IMPORTED_MODULE_3__["colors"].main.normal, ";cursor:pointer;}a.active-link.jsx-2634865677:after{content:\"\";display:block;position:absolute;bottom:-0.3em;left:0;height:0.1em;width:100%;background-color:").concat(_styles_colors__WEBPACK_IMPORTED_MODULE_3__["colors"].accent.dark, ";}"));
+navLinkSecondaryStyles.__hash = "2634865677";
+
+var SecondaryAnchor = function SecondaryAnchor(_ref2) {
+  var isActive = _ref2.isActive,
+      onClick = _ref2.onClick,
+      children = _ref2.children;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    onClick: onClick,
+    className: "jsx-".concat(navLinkSecondaryStyles.__hash) + " " + ((isActive ? "active-link" : "") || ""),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
     },
     __self: this
   }, children, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1508907014",
-    dynamic: [HTag, Object(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["headerCSS"])(size)],
+    id: navLinkSecondaryStyles.__hash,
     __self: this
-  }, "".concat(HTag, ".__jsx-style-dynamic-selector{").concat(Object(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["headerCSS"])(size), ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JpY2V2aW5kL1dlYnN0b3JtUHJvamVjdHMvYWxmcmVkYXNiaXVyby9jb21wb25lbnRzL3R5cG9ncmFwaHkvSGVhZGVyLmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFRa0IsQUFJUSw2QkFBQyIsImZpbGUiOiIvaG9tZS9yaWNldmluZC9XZWJzdG9ybVByb2plY3RzL2FsZnJlZGFzYml1cm8vY29tcG9uZW50cy90eXBvZ3JhcGh5L0hlYWRlci5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBoZWFkZXJDU1MgfSBmcm9tIFwiLi4vLi4vc3R5bGVzL3R5cG9ncmFwaHlcIjtcblxuZXhwb3J0IGNvbnN0IEhlYWRlciA9ICh7IHNpemUsIGNoaWxkcmVuIH0pID0+IHtcbiAgY29uc3QgSFRhZyA9IHNpemVUb0hlYWRlcihzaXplKTtcblxuICByZXR1cm4gKFxuICAgIDxIVGFnPlxuICAgICAge2NoaWxkcmVufVxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAke0hUYWd9IHtcbiAgICAgICAgICAke2hlYWRlckNTUyhzaXplKX1cbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvSFRhZz5cbiAgKTtcbn07XG5cbmZ1bmN0aW9uIHNpemVUb0hlYWRlcihzaXplKSB7XG4gIGNvbnN0IG1hcCA9IHtcbiAgICBzOiBgaDRgLFxuICAgIG06IGBoM2AsXG4gICAgbDogYGgyYCxcbiAgICB4bDogYGgxYFxuICB9O1xuXG4gIHJldHVybiBtYXBbc2l6ZV07XG59XG4iXX0= */\n/*@ sourceURL=/home/ricevind/WebstormProjects/alfredasbiuro/components/typography/Header.jsx */")));
+  }, navLinkSecondaryStyles));
 };
-
-function sizeToHeader(size) {
-  var map = {
-    s: "h4",
-    m: "h3",
-    l: "h2",
-    xl: "h1"
-  };
-  return map[size];
-}
 
 /***/ }),
 
@@ -586,6 +613,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "./no
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ "./node_modules/core-js/library/fn/object/set-prototype-of.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/values.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/values.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/values */ "./node_modules/core-js/library/fn/object/values.js");
 
 /***/ }),
 
@@ -1592,6 +1630,19 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 
 __webpack_require__(/*! ../../modules/es6.object.set-prototype-of */ "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js");
 module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.setPrototypeOf;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/values.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/values.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es7.object.values */ "./node_modules/core-js/library/modules/es7.object.values.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.values;
 
 
 /***/ }),
@@ -3398,6 +3449,33 @@ module.exports = function (KEY, exec) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_object-to-array.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-to-array.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var getKeys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
+var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
+var isEnum = __webpack_require__(/*! ./_object-pie */ "./node_modules/core-js/library/modules/_object-pie.js").f;
+module.exports = function (isEntries) {
+  return function (it) {
+    var O = toIObject(it);
+    var keys = getKeys(O);
+    var length = keys.length;
+    var i = 0;
+    var result = [];
+    var key;
+    while (length > i) if (isEnum.call(O, key = keys[i++])) {
+      result.push(isEntries ? [key, O[key]] : O[key]);
+    } return result;
+  };
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_parse-float.js":
 /*!**************************************************************!*\
   !*** ./node_modules/core-js/library/modules/_parse-float.js ***!
@@ -5103,6 +5181,26 @@ setToStringTag($Symbol, 'Symbol');
 setToStringTag(Math, 'Math', true);
 // 24.3.3 JSON[@@toStringTag]
 setToStringTag(global.JSON, 'JSON', true);
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.object.values.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.object.values.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// https://github.com/tc39/proposal-object-values-entries
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var $values = __webpack_require__(/*! ./_object-to-array */ "./node_modules/core-js/library/modules/_object-to-array.js")(false);
+
+$export($export.S, 'Object', {
+  values: function values(it) {
+    return $values(it);
+  }
+});
 
 
 /***/ }),
@@ -7008,21 +7106,21 @@ module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fo-nas&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fo-nas.js!./":
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fo-nas&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fo-nas.js ***!
-  \******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuslugi%2Fubezpieczenia&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi%2Fubezpieczenia.js!./":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuslugi%2Fubezpieczenia&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi%2Fubezpieczenia.js ***!
+  \****************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/o-nas", function() {
-      var page = __webpack_require__(/*! ./pages/o-nas.js */ "./pages/o-nas.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/uslugi/ubezpieczenia", function() {
+      var page = __webpack_require__(/*! ./pages/uslugi/ubezpieczenia.js */ "./pages/uslugi/ubezpieczenia.js")
       if(true) {
-        module.hot.accept(/*! ./pages/o-nas.js */ "./pages/o-nas.js", function() {
-          if(!next.router.components["/o-nas"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/o-nas.js */ "./pages/o-nas.js")
-          next.router.update("/o-nas", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/uslugi/ubezpieczenia.js */ "./pages/uslugi/ubezpieczenia.js", function() {
+          if(!next.router.components["/uslugi/ubezpieczenia"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/uslugi/ubezpieczenia.js */ "./pages/uslugi/ubezpieczenia.js")
+          next.router.update("/uslugi/ubezpieczenia", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -12184,10 +12282,70 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/o-nas.js":
-/*!************************!*\
-  !*** ./pages/o-nas.js ***!
-  \************************/
+/***/ "./pages/uslugi/components/NavSevices.jsx":
+/*!************************************************!*\
+  !*** ./pages/uslugi/components/NavSevices.jsx ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return NavServices; });
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_values__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/values */ "./node_modules/@babel/runtime-corejs2/core-js/object/values.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_values__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_values__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_navigation_nav_link_NavLinkSecondary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/navigation/nav-link/NavLinkSecondary */ "./components/navigation/nav-link/NavLinkSecondary.jsx");
+/* harmony import */ var _styles_typography__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../styles/typography */ "./styles/typography.js");
+/* harmony import */ var _services_navigation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../services/navigation */ "./services/navigation.js");
+
+var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/pages/uslugi/components/NavSevices.jsx";
+
+
+
+
+
+var NavStyles = new String("nav.jsx-312426547{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin-top:".concat(Object(_styles_typography__WEBPACK_IMPORTED_MODULE_4__["rhythmUnit"])(), ";}nav.jsx-312426547>a:not(:first-child){margin-left:20px;}"));
+NavStyles.__hash = "312426547";
+
+var parentPagePrefix = function parentPagePrefix(url) {
+  return "/uslugi".concat(url);
+};
+
+function NavServices() {
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("nav", {
+    className: "jsx-".concat(NavStyles.__hash),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, _babel_runtime_corejs2_core_js_object_values__WEBPACK_IMPORTED_MODULE_0___default()(_services_navigation__WEBPACK_IMPORTED_MODULE_5__["servicesPagesURLs"]).map(function (pageDefinition, i) {
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_navigation_nav_link_NavLinkSecondary__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      key: i,
+      as: parentPagePrefix(pageDefinition.url),
+      href: parentPagePrefix(pageDefinition.url),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }, pageDefinition.description);
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    id: NavStyles.__hash,
+    __self: this
+  }, NavStyles));
+}
+
+/***/ }),
+
+/***/ "./pages/uslugi/ubezpieczenia.js":
+/*!***************************************!*\
+  !*** ./pages/uslugi/ubezpieczenia.js ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12195,12 +12353,12 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_layout_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout/Layout */ "./components/layout/Layout.jsx");
-/* harmony import */ var _components_navigation_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/navigation/Nav */ "./components/navigation/Nav.jsx");
-/* harmony import */ var _components_layout_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/layout/Container */ "./components/layout/Container.jsx");
-/* harmony import */ var _components_typography_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/typography/Header */ "./components/typography/Header.jsx");
-/* harmony import */ var _components_Paragraph__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Paragraph */ "./components/Paragraph.jsx");
-var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/pages/o-nas.js";
+/* harmony import */ var _components_layout_Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/layout/Container */ "./components/layout/Container.jsx");
+/* harmony import */ var _components_navigation_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/navigation/Nav */ "./components/navigation/Nav.jsx");
+/* harmony import */ var _components_Slide__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Slide */ "./components/Slide.jsx");
+/* harmony import */ var _components_NavSevices__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/NavSevices */ "./pages/uslugi/components/NavSevices.jsx");
+/* harmony import */ var _components_layout_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/layout/Layout */ "./components/layout/Layout.jsx");
+var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/pages/uslugi/ubezpieczenia.js";
 
 
 
@@ -12208,7 +12366,7 @@ var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/pages/o-nas.js
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -12220,63 +12378,25 @@ var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/pages/o-nas.js
       lineNumber: 9
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout_Container__WEBPACK_IMPORTED_MODULE_3__["Container"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slide__WEBPACK_IMPORTED_MODULE_3__["Slide"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_typography_Header__WEBPACK_IMPORTED_MODULE_4__["Header"], {
-    size: "xl",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_NavSevices__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, "O nas"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Paragraph__WEBPACK_IMPORTED_MODULE_5__["Paragraph"], {
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout_Container__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
-  }, "Firma istnieje od 1994 roku. W\u0142a\u015Bcicielka firmy Alfreda Sobierajska zosta\u0142a w 1999 roku wpisana przez Krajow\u0105 Izb\u0119 Doradc\xF3w Podatkowych na list\u0119 doradc\xF3w o numerze 09046."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Paragraph__WEBPACK_IMPORTED_MODULE_5__["Paragraph"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "Posiadaj\u0105c ubezpieczenie od odpowiedzialno\u015Bci cywilnej, zapewniamy naszym klientom poczucie ca\u0142kowitego bezpiecze\u0144stwa i komfortu."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Paragraph__WEBPACK_IMPORTED_MODULE_5__["Paragraph"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, "Pragniemy, aby wszyscy nasi Klienci czuli si\u0119 spokojni o finanse swoich firm. Pomagaj\u0105 nam w tym: najnowsze, licencjonowane programy ksi\u0119gowe, wieloletnie do\u015Bwiadczenie i znajomo\u015B\u0107 przepis\xF3w prawnych. Korzystamy z nowoczesnych system\xF3w, dostosowanych do zmieniaj\u0105cych si\u0119 wymog\xF3w prawno-gospodarczych."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Paragraph__WEBPACK_IMPORTED_MODULE_5__["Paragraph"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, "Pracujemy wy\u0142\u0105cznie na legalnych i certyfikowanych programach ksi\u0119gowych, zgodnych z przepisami ustawy o rachunkowo\u015Bci.", " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Paragraph__WEBPACK_IMPORTED_MODULE_5__["Paragraph"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "Zadowolenie naszych dotychczasowych klient\xF3w jest najlepszym \u015Bwiadectwem wysokiej jako\u015Bci naszych us\u0142ug."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Paragraph__WEBPACK_IMPORTED_MODULE_5__["Paragraph"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, " ", "Spos\xF3b prowadzenia ksi\u0119gowo\u015Bci obs\u0142ugiwanych przez nas firm zapewnia maksymalne zabezpieczenie spraw finansowo-prawnych. Nasze biuro rachunkowe gwarantuje obs\u0142ug\u0119 ksi\u0119gow\u0105 na najwy\u017Cszym poziomie!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_typography_Header__WEBPACK_IMPORTED_MODULE_4__["Header"], {
-    size: "l",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, "Zapraszamy do wsp\xF3\u0142pracy")));
+  }, "Works"));
 });
 
 /***/ }),
@@ -12560,14 +12680,14 @@ function prefixHref(parts) {
 
 /***/ }),
 
-/***/ 1:
-/*!**********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fo-nas&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fo-nas.js ***!
-  \**********************************************************************************************************************************************/
+/***/ 3:
+/*!********************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fuslugi%2Fubezpieczenia&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi%2Fubezpieczenia.js ***!
+  \********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fo-nas&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fo-nas.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fo-nas&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fo-nas.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fuslugi%2Fubezpieczenia&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi%2Fubezpieczenia.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuslugi%2Fubezpieczenia&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi%2Fubezpieczenia.js!./");
 
 
 /***/ }),
@@ -12583,5 +12703,5 @@ module.exports = dll_bed7e68b081ee2342acd;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=o-nas.js.map
+},[[3,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=ubezpieczenia.js.map
