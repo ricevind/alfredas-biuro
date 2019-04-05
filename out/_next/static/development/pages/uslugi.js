@@ -1,9 +1,95 @@
 ((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/uslugi.js"],{
 
-/***/ "./components/Layout.jsx":
-/*!*******************************!*\
-  !*** ./components/Layout.jsx ***!
-  \*******************************/
+/***/ "./components/Slide.jsx":
+/*!******************************!*\
+  !*** ./components/Slide.jsx ***!
+  \******************************/
+/*! exports provided: Slide */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Slide", function() { return Slide; });
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/components/Slide.jsx";
+
+
+function Slide(_ref) {
+  var shouldSlide = _ref.shouldSlide,
+      children = _ref.children;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2400774860" + " " + "fadeIn-wrapper ".concat(shouldSlide && "active"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-2400774860" + " " + "fadeIn",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, children), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "2400774860",
+    __self: this
+  }, "@-webkit-keyframes fadeIn-jsx-2400774860{0%{-webkit-transform:translateY(-250%);-ms-transform:translateY(-250%);transform:translateY(-250%);}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);}}@keyframes fadeIn-jsx-2400774860{0%{-webkit-transform:translateY(-250%);-ms-transform:translateY(-250%);transform:translateY(-250%);}100%{-webkit-transform:translateY(0);-ms-transform:translateY(0);transform:translateY(0);}}.fadeIn-wrapper.jsx-2400774860{position:relative;}.active.jsx-2400774860 .fadeIn.jsx-2400774860{position:relative;-webkit-animation:fadeIn-jsx-2400774860 1s;animation:fadeIn-jsx-2400774860 1s;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JpY2V2aW5kL1dlYnN0b3JtUHJvamVjdHMvYWxmcmVkYXNiaXVyby9jb21wb25lbnRzL1NsaWRlLmpzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFLUyxBQUkyQyxBQUlKLEFBTVIsQUFJQSxrQkFIcEIsQUFJc0Isa0VBVnBCLFlBSkEsQUFlRiIsImZpbGUiOiIvaG9tZS9yaWNldmluZC9XZWJzdG9ybVByb2plY3RzL2FsZnJlZGFzYml1cm8vY29tcG9uZW50cy9TbGlkZS5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZnVuY3Rpb24gU2xpZGUoeyBzaG91bGRTbGlkZSwgY2hpbGRyZW4gfSkge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPXtgZmFkZUluLXdyYXBwZXIgJHtzaG91bGRTbGlkZSAmJiBcImFjdGl2ZVwifWB9PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJmYWRlSW5cIj57Y2hpbGRyZW59PC9kaXY+XG4gICAgICA8c3R5bGUganN4PlxuICAgICAgICB7YFxuICAgICAgICAgIEBrZXlmcmFtZXMgZmFkZUluIHtcbiAgICAgICAgICAgIDAlIHtcbiAgICAgICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0yNTAlKTtcbiAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgMTAwJSB7XG4gICAgICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuZmFkZUluLXdyYXBwZXIge1xuICAgICAgICAgICAgLy8gb3ZlcmZsb3c6IGhpZGRlbjtcbiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAuYWN0aXZlIC5mYWRlSW4ge1xuICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICAgICAgYW5pbWF0aW9uOiBmYWRlSW4gMXM7XG4gICAgICAgICAgfVxuICAgICAgICBgfVxuICAgICAgPC9zdHlsZT57XCIgXCJ9XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXX0= */\n/*@ sourceURL=/home/ricevind/WebstormProjects/alfredasbiuro/components/Slide.jsx */"), " ");
+}
+
+/***/ }),
+
+/***/ "./components/layout/Container.jsx":
+/*!*****************************************!*\
+  !*** ./components/layout/Container.jsx ***!
+  \*****************************************/
+/*! exports provided: Container */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Container", function() { return Container; });
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styles_typography__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../styles/typography */ "./styles/typography.js");
+var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/components/layout/Container.jsx";
+
+
+
+var containerCSS = new String("div.jsx-2171428141{outline:dashed crimson;}");
+containerCSS.__hash = "2171428141";
+var Container = function Container(_ref) {
+  var _ref$size = _ref.size,
+      size = _ref$size === void 0 ? 0 : _ref$size,
+      children = _ref.children;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-".concat(containerCSS.__hash) + " " + styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic([["3349197215", [Object(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["rhythmUnit"])(size)]]]),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, children, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "3349197215",
+    dynamic: [Object(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["rhythmUnit"])(size)],
+    __self: this
+  }, ".__jsx-style-dynamic-selector{margin-top:".concat(Object(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["rhythmUnit"])(size), ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JpY2V2aW5kL1dlYnN0b3JtUHJvamVjdHMvYWxmcmVkYXNiaXVyby9jb21wb25lbnRzL2xheW91dC9Db250YWluZXIuanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWFrQixBQUVpRCx3Q0FDMUMiLCJmaWxlIjoiL2hvbWUvcmljZXZpbmQvV2Vic3Rvcm1Qcm9qZWN0cy9hbGZyZWRhc2JpdXJvL2NvbXBvbmVudHMvbGF5b3V0L0NvbnRhaW5lci5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgY3NzIGZyb20gXCJzdHlsZWQtanN4L2Nzc1wiO1xuaW1wb3J0IHsgcmh5dGhtVW5pdCB9IGZyb20gXCIuLi8uLi9zdHlsZXMvdHlwb2dyYXBoeVwiO1xuXG5jb25zdCBjb250YWluZXJDU1MgPSBjc3NgXG4gIGRpdiB7XG4gICAgb3V0bGluZTogZGFzaGVkIGNyaW1zb247XG4gIH1cbmA7XG5cbmV4cG9ydCBjb25zdCBDb250YWluZXIgPSAoeyBzaXplID0gMCwgY2hpbGRyZW4gfSkgPT4ge1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICB7Y2hpbGRyZW59XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIG1hcmdpbi10b3A6ICR7cmh5dGhtVW5pdChzaXplKX07XG4gICAgICBgfTwvc3R5bGU+XG4gICAgICA8c3R5bGUganN4Pntjb250YWluZXJDU1N9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG4iXX0= */\n/*@ sourceURL=/home/ricevind/WebstormProjects/alfredasbiuro/components/layout/Container.jsx */")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: containerCSS.__hash,
+    __self: this
+  }, containerCSS));
+};
+
+/***/ }),
+
+/***/ "./components/layout/Layout.jsx":
+/*!**************************************!*\
+  !*** ./components/layout/Layout.jsx ***!
+  \**************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -16,10 +102,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next-server/head */ "./node_modules/next-server/head.js");
 /* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _styles_base__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/base */ "./styles/base.js");
-/* harmony import */ var _utils_prefixHref__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/prefixHref */ "./utils/prefixHref.js");
+/* harmony import */ var _styles_base__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../styles/base */ "./styles/base.js");
+/* harmony import */ var _utils_prefixHref__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../utils/prefixHref */ "./utils/prefixHref.js");
+/* harmony import */ var _styles_typography__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../styles/typography */ "./styles/typography.js");
 
-var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/components/Layout.jsx";
+var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/components/layout/Layout.jsx";
 
 
 
@@ -36,6 +123,7 @@ function _templateObject() {
 
 
 
+
 /* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
   var children = _ref.children,
       _ref$title = _ref.title,
@@ -43,47 +131,63 @@ function _templateObject() {
   return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("title", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, title), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("meta", {
-    charSet: "utf-8",
+  }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("title", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a.dynamic([["3842999462", [Object(_styles_typography__WEBPACK_IMPORTED_MODULE_6__["rhythmUnit"])()]]]),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("meta", {
-    name: "viewport",
-    content: "initial-scale=1.0, width=device-width",
+  }, title), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("meta", {
+    charSet: "utf-8",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a.dynamic([["3842999462", [Object(_styles_typography__WEBPACK_IMPORTED_MODULE_6__["rhythmUnit"])()]]]),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("link", {
-    href: "https://fonts.googleapis.com/css?family=Nunito+Sans|Poppins&subset=latin-ext",
-    rel: "stylesheet",
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("meta", {
+    name: "viewport",
+    content: "initial-scale=1.0, width=device-width",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a.dynamic([["3842999462", [Object(_styles_typography__WEBPACK_IMPORTED_MODULE_6__["rhythmUnit"])()]]]),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("link", {
-    href: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_5__["prefixHref"])(_templateObject()),
+    href: "https://fonts.googleapis.com/css?family=Nunito+Sans|Poppins&subset=latin-ext",
     rel: "stylesheet",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a.dynamic([["3842999462", [Object(_styles_typography__WEBPACK_IMPORTED_MODULE_6__["rhythmUnit"])()]]]),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 13
     },
     __self: this
-  })), children, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("link", {
+    href: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_5__["prefixHref"])(_templateObject()),
+    rel: "stylesheet",
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a.dynamic([["3842999462", [Object(_styles_typography__WEBPACK_IMPORTED_MODULE_6__["rhythmUnit"])()]]]),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+    className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a.dynamic([["3842999462", [Object(_styles_typography__WEBPACK_IMPORTED_MODULE_6__["rhythmUnit"])()]]]) + " " + "main-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, children), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    id: "3842999462",
+    dynamic: [Object(_styles_typography__WEBPACK_IMPORTED_MODULE_6__["rhythmUnit"])()],
+    __self: this
+  }, ".main-container.__jsx-style-dynamic-selector{margin:".concat(Object(_styles_typography__WEBPACK_IMPORTED_MODULE_6__["rhythmUnit"])(), ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JpY2V2aW5kL1dlYnN0b3JtUHJvamVjdHMvYWxmcmVkYXNiaXVyby9jb21wb25lbnRzL2xheW91dC9MYXlvdXQuanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXFCZ0IsQUFHNkMsb0NBQ3RDIiwiZmlsZSI6Ii9ob21lL3JpY2V2aW5kL1dlYnN0b3JtUHJvamVjdHMvYWxmcmVkYXNiaXVyby9jb21wb25lbnRzL2xheW91dC9MYXlvdXQuanN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xuXG5pbXBvcnQgeyBib2R5LCByb290LCBodG1sIH0gZnJvbSBcIi4uLy4uL3N0eWxlcy9iYXNlXCI7XG5pbXBvcnQgeyBwcmVmaXhIcmVmIH0gZnJvbSBcIi4uLy4uL3V0aWxzL3ByZWZpeEhyZWZcIjtcbmltcG9ydCB7IHJoeXRobVVuaXQgfSBmcm9tIFwiLi4vLi4vc3R5bGVzL3R5cG9ncmFwaHlcIjtcblxuZXhwb3J0IGRlZmF1bHQgKHsgY2hpbGRyZW4sIHRpdGxlID0gXCJUaGlzIGlzIHRoZSBkZWZhdWx0IHRpdGxlXCIgfSkgPT4gKFxuICA8PlxuICAgIDxIZWFkPlxuICAgICAgPHRpdGxlPnt0aXRsZX08L3RpdGxlPlxuICAgICAgPG1ldGEgY2hhclNldD1cInV0Zi04XCIgLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJpbml0aWFsLXNjYWxlPTEuMCwgd2lkdGg9ZGV2aWNlLXdpZHRoXCIgLz5cbiAgICAgIDxsaW5rXG4gICAgICAgIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2Nzcz9mYW1pbHk9TnVuaXRvK1NhbnN8UG9wcGlucyZhbXA7c3Vic2V0PWxhdGluLWV4dFwiXG4gICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxuICAgICAgLz5cbiAgICAgIDxsaW5rIGhyZWY9e3ByZWZpeEhyZWZgL3N0YXRpYy9yZXNldC5jc3NgfSByZWw9XCJzdHlsZXNoZWV0XCIgLz5cbiAgICA8L0hlYWQ+XG5cbiAgICA8ZGl2IGNsYXNzTmFtZT17XCJtYWluLWNvbnRhaW5lclwifT57Y2hpbGRyZW59PC9kaXY+XG5cbiAgICA8c3R5bGUganN4PntgXG4gICAgICAubWFpbi1jb250YWluZXIge1xuICAgICAgICBtYXJnaW46ICR7cmh5dGhtVW5pdCgpfTtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG5cbiAgICA8c3R5bGUganN4IGdsb2JhbD5cbiAgICAgIHtyb290fVxuICAgIDwvc3R5bGU+XG4gICAgPHN0eWxlIGpzeCBnbG9iYWw+XG4gICAgICB7aHRtbH1cbiAgICA8L3N0eWxlPlxuICAgIDxzdHlsZSBqc3ggZ2xvYmFsPlxuICAgICAge2JvZHl9XG4gICAgPC9zdHlsZT5cbiAgPC8+XG4pO1xuIl19 */\n/*@ sourceURL=/home/ricevind/WebstormProjects/alfredasbiuro/components/layout/Layout.jsx */")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
     id: _styles_base__WEBPACK_IMPORTED_MODULE_4__["root"].__hash,
     __self: this
   }, _styles_base__WEBPACK_IMPORTED_MODULE_4__["root"]), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -111,61 +215,55 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _NavLink__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NavLink */ "./components/navigation/NavLink.jsx");
-/* harmony import */ var _utils_prefixHref__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../utils/prefixHref */ "./utils/prefixHref.js");
-/* harmony import */ var _styles_typography__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../styles/typography */ "./styles/typography.js");
+/* harmony import */ var _styles_typography__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../styles/typography */ "./styles/typography.js");
+/* harmony import */ var _services_navigation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/navigation */ "./services/navigation.js");
+/* harmony import */ var _nav_link_NavLinkMain__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./nav-link/NavLinkMain */ "./components/navigation/nav-link/NavLinkMain.jsx");
 var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/components/navigation/Nav.jsx";
 
 
 
 
 
-var NavStyles = new String("nav.jsx-3186197646{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin-top:".concat(Object(_styles_typography__WEBPACK_IMPORTED_MODULE_4__["rhythmUnit"])(), ";margin-bottom:").concat(Object(_styles_typography__WEBPACK_IMPORTED_MODULE_4__["rhythmUnit"])(), ";}nav.jsx-3186197646>a:not(:first-child){margin-left:20px;}"));
-NavStyles.__hash = "3186197646";
-var pagesUrls = {
-  about: "/o-nas",
-  priceList: "/cennik",
-  services: "/uslugi",
-  contact: "/kontakt"
-};
+var NavStyles = new String("nav.jsx-312426547{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin-top:".concat(Object(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["rhythmUnit"])(), ";}nav.jsx-312426547>a:not(:first-child){margin-left:20px;}"));
+NavStyles.__hash = "312426547";
 function Nav() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("nav", {
     className: "jsx-".concat(NavStyles.__hash),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 24
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_NavLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    as: pagesUrls.about,
-    href: pagesUrls.about,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link_NavLinkMain__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    as: _services_navigation__WEBPACK_IMPORTED_MODULE_3__["pagesURLs"].about,
+    href: _services_navigation__WEBPACK_IMPORTED_MODULE_3__["pagesURLs"].about,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "O nas"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link_NavLinkMain__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    as: _services_navigation__WEBPACK_IMPORTED_MODULE_3__["pagesURLs"].services,
+    href: _services_navigation__WEBPACK_IMPORTED_MODULE_3__["pagesURLs"].services,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, "Us\u0142ugi"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link_NavLinkMain__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    as: _services_navigation__WEBPACK_IMPORTED_MODULE_3__["pagesURLs"].priceList,
+    href: _services_navigation__WEBPACK_IMPORTED_MODULE_3__["pagesURLs"].priceList,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
     },
     __self: this
-  }, "O nas"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_NavLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    as: pagesUrls.services,
-    href: pagesUrls.services,
+  }, "Cennik"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_nav_link_NavLinkMain__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    as: _services_navigation__WEBPACK_IMPORTED_MODULE_3__["pagesURLs"].contact,
+    href: _services_navigation__WEBPACK_IMPORTED_MODULE_3__["pagesURLs"].contact,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
-    },
-    __self: this
-  }, "Us\u0142ugi"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_NavLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    as: pagesUrls.priceList,
-    href: pagesUrls.priceList,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, "Cennik"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_NavLink__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    as: pagesUrls.contact,
-    href: pagesUrls.contact,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
     },
     __self: this
   }, "Kontakt"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
@@ -176,37 +274,28 @@ function Nav() {
 
 /***/ }),
 
-/***/ "./components/navigation/NavLink.jsx":
-/*!*******************************************!*\
-  !*** ./components/navigation/NavLink.jsx ***!
-  \*******************************************/
+/***/ "./components/navigation/nav-link/NavLink.jsx":
+/*!****************************************************!*\
+  !*** ./components/navigation/nav-link/NavLink.jsx ***!
+  \****************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _styles_typography__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../styles/typography */ "./styles/typography.js");
-/* harmony import */ var _utils_prefixHref__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../utils/prefixHref */ "./utils/prefixHref.js");
-/* harmony import */ var _styles_colors__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../styles/colors */ "./styles/colors.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/components/navigation/NavLink.jsx";
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _utils_prefixHref__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../utils/prefixHref */ "./utils/prefixHref.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/components/navigation/nav-link/NavLink.jsx";
 
 
 
 
-
-
-
-var navLinkStyles = new String("a.jsx-5682832{position:relative;-webkit-text-decoration:none;text-decoration:none;line-height:".concat(_styles_typography__WEBPACK_IMPORTED_MODULE_3__["lineHeight"], ";font-family:").concat(_styles_typography__WEBPACK_IMPORTED_MODULE_3__["fonts"].body, ";font-size:").concat(_styles_typography__WEBPACK_IMPORTED_MODULE_3__["fontSizes"].m, ";color:").concat(_styles_colors__WEBPACK_IMPORTED_MODULE_5__["colors"].main.dark, ";}a.active-link.jsx-5682832:after{content:\"\";display:block;position:absolute;bottom:-0.3em;left:0;height:0.1em;width:100%;background-color:").concat(_styles_colors__WEBPACK_IMPORTED_MODULE_5__["colors"].accent.dark, ";}"));
-navLinkStyles.__hash = "5682832";
-var NavLink = Object(next_router__WEBPACK_IMPORTED_MODULE_6__["withRouter"])(function (_ref) {
+var NavLink = Object(next_router__WEBPACK_IMPORTED_MODULE_3__["withRouter"])(function (_ref) {
   var _ref$as = _ref.as,
       as = _ref$as === void 0 ? "" : _ref$as,
       href = _ref.href,
@@ -217,27 +306,159 @@ var NavLink = Object(next_router__WEBPACK_IMPORTED_MODULE_6__["withRouter"])(fun
     return router.pathname === as;
   };
 
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    as: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_4__["prefixHref"])(as),
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    as: Object(_utils_prefixHref__WEBPACK_IMPORTED_MODULE_2__["prefixHref"])(as),
     href: href,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    className: "jsx-".concat(navLinkStyles.__hash) + " " + (isActive() && "active-link" || ""),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, children)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: navLinkStyles.__hash,
-    __self: this
-  }, navLinkStyles));
+  }, children(isActive())));
 });
 /* harmony default export */ __webpack_exports__["default"] = (NavLink);
+
+/***/ }),
+
+/***/ "./components/navigation/nav-link/NavLinkMain.jsx":
+/*!********************************************************!*\
+  !*** ./components/navigation/nav-link/NavLinkMain.jsx ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styles_typography__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../styles/typography */ "./styles/typography.js");
+/* harmony import */ var _styles_colors__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../styles/colors */ "./styles/colors.js");
+/* harmony import */ var _NavLink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NavLink */ "./components/navigation/nav-link/NavLink.jsx");
+var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/components/navigation/nav-link/NavLinkMain.jsx";
+
+
+
+
+
+
+var NavLinkMain = function NavLinkMain(_ref) {
+  var as = _ref.as,
+      href = _ref.href,
+      children = _ref.children;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_NavLink__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    as: as,
+    href: href,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, function (isActive) {
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(MainAnchor, {
+      isActive: isActive,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      },
+      __self: this
+    }, children);
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (NavLinkMain);
+var navLinkMainStyles = new String("a.jsx-3113227594{position:relative;-webkit-text-decoration:none;text-decoration:none;line-height:".concat(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["lineHeight"], ";font-family:").concat(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["fonts"].body, ";font-size:").concat(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["fontSizes"].m, ";color:").concat(_styles_colors__WEBPACK_IMPORTED_MODULE_3__["colors"].main.dark, ";cursor:pointer;}a.active-link.jsx-3113227594:after{content:\"\";display:block;position:absolute;bottom:-0.3em;left:0;height:0.1em;width:100%;background-color:").concat(_styles_colors__WEBPACK_IMPORTED_MODULE_3__["colors"].accent.dark, ";}"));
+navLinkMainStyles.__hash = "3113227594";
+
+var MainAnchor = function MainAnchor(_ref2) {
+  var isActive = _ref2.isActive,
+      onClick = _ref2.onClick,
+      children = _ref2.children;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    onClick: onClick,
+    className: "jsx-".concat(navLinkMainStyles.__hash) + " " + ((isActive ? "active-link" : "") || ""),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, children, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: navLinkMainStyles.__hash,
+    __self: this
+  }, navLinkMainStyles));
+};
+
+/***/ }),
+
+/***/ "./components/navigation/nav-link/NavLinkSecondary.jsx":
+/*!*************************************************************!*\
+  !*** ./components/navigation/nav-link/NavLinkSecondary.jsx ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styles_typography__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../styles/typography */ "./styles/typography.js");
+/* harmony import */ var _styles_colors__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../styles/colors */ "./styles/colors.js");
+/* harmony import */ var _NavLink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NavLink */ "./components/navigation/nav-link/NavLink.jsx");
+var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/components/navigation/nav-link/NavLinkSecondary.jsx";
+
+
+
+
+
+
+var NavLinkSecondary = function NavLinkSecondary(_ref) {
+  var as = _ref.as,
+      href = _ref.href,
+      children = _ref.children;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_NavLink__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    as: as,
+    href: href,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, function (isActive) {
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(SecondaryAnchor, {
+      isActive: isActive,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      },
+      __self: this
+    }, children);
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (NavLinkSecondary);
+var navLinkSecondaryStyles = new String("a.jsx-2634865677{position:relative;-webkit-text-decoration:none;text-decoration:none;line-height:".concat(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["lineHeight"], ";font-family:").concat(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["fonts"].body, ";font-size:").concat(_styles_typography__WEBPACK_IMPORTED_MODULE_2__["fontSizes"].s, ";color:").concat(_styles_colors__WEBPACK_IMPORTED_MODULE_3__["colors"].main.normal, ";cursor:pointer;}a.active-link.jsx-2634865677:after{content:\"\";display:block;position:absolute;bottom:-0.3em;left:0;height:0.1em;width:100%;background-color:").concat(_styles_colors__WEBPACK_IMPORTED_MODULE_3__["colors"].accent.dark, ";}"));
+navLinkSecondaryStyles.__hash = "2634865677";
+
+var SecondaryAnchor = function SecondaryAnchor(_ref2) {
+  var isActive = _ref2.isActive,
+      onClick = _ref2.onClick,
+      children = _ref2.children;
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    onClick: onClick,
+    className: "jsx-".concat(navLinkSecondaryStyles.__hash) + " " + ((isActive ? "active-link" : "") || ""),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, children, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: navLinkSecondaryStyles.__hash,
+    __self: this
+  }, navLinkSecondaryStyles));
+};
 
 /***/ }),
 
@@ -392,6 +613,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "./no
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/set-prototype-of */ "./node_modules/core-js/library/fn/object/set-prototype-of.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/values.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/values.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/values */ "./node_modules/core-js/library/fn/object/values.js");
 
 /***/ }),
 
@@ -1398,6 +1630,19 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 
 __webpack_require__(/*! ../../modules/es6.object.set-prototype-of */ "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js");
 module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.setPrototypeOf;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/object/values.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/object/values.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../../modules/es7.object.values */ "./node_modules/core-js/library/modules/es7.object.values.js");
+module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Object.values;
 
 
 /***/ }),
@@ -3204,6 +3449,33 @@ module.exports = function (KEY, exec) {
 
 /***/ }),
 
+/***/ "./node_modules/core-js/library/modules/_object-to-array.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_object-to-array.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var getKeys = __webpack_require__(/*! ./_object-keys */ "./node_modules/core-js/library/modules/_object-keys.js");
+var toIObject = __webpack_require__(/*! ./_to-iobject */ "./node_modules/core-js/library/modules/_to-iobject.js");
+var isEnum = __webpack_require__(/*! ./_object-pie */ "./node_modules/core-js/library/modules/_object-pie.js").f;
+module.exports = function (isEntries) {
+  return function (it) {
+    var O = toIObject(it);
+    var keys = getKeys(O);
+    var length = keys.length;
+    var i = 0;
+    var result = [];
+    var key;
+    while (length > i) if (isEnum.call(O, key = keys[i++])) {
+      result.push(isEntries ? [key, O[key]] : O[key]);
+    } return result;
+  };
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/core-js/library/modules/_parse-float.js":
 /*!**************************************************************!*\
   !*** ./node_modules/core-js/library/modules/_parse-float.js ***!
@@ -4909,6 +5181,26 @@ setToStringTag($Symbol, 'Symbol');
 setToStringTag(Math, 'Math', true);
 // 24.3.3 JSON[@@toStringTag]
 setToStringTag(global.JSON, 'JSON', true);
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es7.object.values.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es7.object.values.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// https://github.com/tc39/proposal-object-values-entries
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var $values = __webpack_require__(/*! ./_object-to-array */ "./node_modules/core-js/library/modules/_object-to-array.js")(false);
+
+$export($export.S, 'Object', {
+  values: function values(it) {
+    return $values(it);
+  }
+});
 
 
 /***/ }),
@@ -6814,20 +7106,20 @@ module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuslugi&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi.js!./":
-/*!********************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuslugi&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi.js ***!
-  \********************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuslugi&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi%2Findex.js!./":
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuslugi&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi%2Findex.js ***!
+  \****************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
     (window.__NEXT_P=window.__NEXT_P||[]).push(["/uslugi", function() {
-      var page = __webpack_require__(/*! ./pages/uslugi.js */ "./pages/uslugi.js")
+      var page = __webpack_require__(/*! ./pages/uslugi/index.js */ "./pages/uslugi/index.js")
       if(true) {
-        module.hot.accept(/*! ./pages/uslugi.js */ "./pages/uslugi.js", function() {
+        module.hot.accept(/*! ./pages/uslugi/index.js */ "./pages/uslugi/index.js", function() {
           if(!next.router.components["/uslugi"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/uslugi.js */ "./pages/uslugi.js")
+          var updatedPage = __webpack_require__(/*! ./pages/uslugi/index.js */ "./pages/uslugi/index.js")
           next.router.update("/uslugi", updatedPage.default || updatedPage)
         })
       }
@@ -11990,10 +12282,70 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/uslugi.js":
-/*!*************************!*\
-  !*** ./pages/uslugi.js ***!
-  \*************************/
+/***/ "./pages/uslugi/components/NavSevices.jsx":
+/*!************************************************!*\
+  !*** ./pages/uslugi/components/NavSevices.jsx ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return NavServices; });
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_values__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/values */ "./node_modules/@babel/runtime-corejs2/core-js/object/values.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_values__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_values__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_navigation_nav_link_NavLinkSecondary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../components/navigation/nav-link/NavLinkSecondary */ "./components/navigation/nav-link/NavLinkSecondary.jsx");
+/* harmony import */ var _styles_typography__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../styles/typography */ "./styles/typography.js");
+/* harmony import */ var _services_navigation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../services/navigation */ "./services/navigation.js");
+
+var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/pages/uslugi/components/NavSevices.jsx";
+
+
+
+
+
+var NavStyles = new String("nav.jsx-312426547{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin-top:".concat(Object(_styles_typography__WEBPACK_IMPORTED_MODULE_4__["rhythmUnit"])(), ";}nav.jsx-312426547>a:not(:first-child){margin-left:20px;}"));
+NavStyles.__hash = "312426547";
+
+var parentPagePrefix = function parentPagePrefix(url) {
+  return "/uslugi".concat(url);
+};
+
+function NavServices() {
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("nav", {
+    className: "jsx-".concat(NavStyles.__hash),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, _babel_runtime_corejs2_core_js_object_values__WEBPACK_IMPORTED_MODULE_0___default()(_services_navigation__WEBPACK_IMPORTED_MODULE_5__["servicesPagesURLs"]).map(function (pageDefinition, i) {
+    return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_navigation_nav_link_NavLinkSecondary__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      key: i,
+      as: parentPagePrefix(pageDefinition.url),
+      href: parentPagePrefix(pageDefinition.url),
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }, pageDefinition.description);
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    id: NavStyles.__hash,
+    __self: this
+  }, NavStyles));
+}
+
+/***/ }),
+
+/***/ "./pages/uslugi/index.js":
+/*!*******************************!*\
+  !*** ./pages/uslugi/index.js ***!
+  \*******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12001,27 +12353,87 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.jsx");
-/* harmony import */ var _components_navigation_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/navigation/Nav */ "./components/navigation/Nav.jsx");
-var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/pages/uslugi.js";
+/* harmony import */ var _components_layout_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/layout/Layout */ "./components/layout/Layout.jsx");
+/* harmony import */ var _components_navigation_Nav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/navigation/Nav */ "./components/navigation/Nav.jsx");
+/* harmony import */ var _components_Slide__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Slide */ "./components/Slide.jsx");
+/* harmony import */ var _components_NavSevices__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/NavSevices */ "./pages/uslugi/components/NavSevices.jsx");
+/* harmony import */ var _components_layout_Container__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/layout/Container */ "./components/layout/Container.jsx");
+var _jsxFileName = "/home/ricevind/WebstormProjects/alfredasbiuro/pages/uslugi/index.js";
+
+
+
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_navigation_Nav__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 9
     },
     __self: this
-  }));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Slide__WEBPACK_IMPORTED_MODULE_3__["Slide"], {
+    shouldSlide: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_NavSevices__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout_Container__WEBPACK_IMPORTED_MODULE_5__["Container"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "Works"));
 });
+
+/***/ }),
+
+/***/ "./services/navigation.js":
+/*!********************************!*\
+  !*** ./services/navigation.js ***!
+  \********************************/
+/*! exports provided: pagesURLs, servicesPagesURLs */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "pagesURLs", function() { return pagesURLs; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "servicesPagesURLs", function() { return servicesPagesURLs; });
+var createPageNavigationDefinition = function createPageNavigationDefinition(url, description) {
+  return {
+    url: url,
+    description: description
+  };
+};
+
+var pagesURLs = {
+  about: "/o-nas",
+  priceList: "/cennik",
+  services: "/uslugi",
+  contact: "/kontakt"
+};
+var servicesPagesURLs = {
+  accountingOffice: createPageNavigationDefinition("/biuro-rachunkowe", " biuro rachunkowe"),
+  hr: createPageNavigationDefinition("/kadry-i-place", "kadry i place"),
+  insurance: createPageNavigationDefinition("/ubezpieczenia", "ubezpieczenia"),
+  foreignAccounting: createPageNavigationDefinition("/rozliczenia-zagraniczne", "rozliczenia zagraniczne"),
+  caseGathering: createPageNavigationDefinition("/komplementowanie-wnioskow", "komplementowanie wniosków"),
+  consulting: createPageNavigationDefinition("/posrednictwo-w-zakresie", "pośrednictwo w zakresie")
+};
 
 /***/ }),
 
@@ -12156,7 +12568,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-family: ", ";\n    font-size: ", ";\n    line-height:  ", ";\n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_0__["default"])(["\n    font-family: ", ";\n    font-size: ", ";\n    line-height:  ", ";\n    margin-top: ", ";\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -12183,7 +12595,7 @@ var rhythmUnit = function rhythmUnit() {
   return "\n  calc(var(--font-size) * ".concat(lineHeight * Math.pow(mode, ordinal), ")\n");
 };
 var paragraphCSS = function paragraphCSS() {
-  return Object(_utils_css_css_partial__WEBPACK_IMPORTED_MODULE_1__["cssPartial"])(_templateObject(), fonts.body, fontSizes.m, lineHeight);
+  return Object(_utils_css_css_partial__WEBPACK_IMPORTED_MODULE_1__["cssPartial"])(_templateObject(), fonts.body, fontSizes.m, lineHeight, rhythmUnit());
 };
 var headerCSS = function headerCSS(size) {
   return Object(_utils_css_css_partial__WEBPACK_IMPORTED_MODULE_1__["cssPartial"])(_templateObject2(), fonts.header, fontSizes[size], lineHeight);
@@ -12269,14 +12681,14 @@ function prefixHref(parts) {
 
 /***/ }),
 
-/***/ 3:
-/*!************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fuslugi&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi.js ***!
-  \************************************************************************************************************************************************/
+/***/ 2:
+/*!********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fuslugi&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi%2Findex.js ***!
+  \********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fuslugi&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuslugi&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fuslugi&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fuslugi&absolutePagePath=%2Fhome%2Fricevind%2FWebstormProjects%2Falfredasbiuro%2Fpages%2Fuslugi%2Findex.js!./");
 
 
 /***/ }),
@@ -12292,5 +12704,5 @@ module.exports = dll_bed7e68b081ee2342acd;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[2,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=uslugi.js.map

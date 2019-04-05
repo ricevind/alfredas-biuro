@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{"/WkX":function(n,o,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/uslugi/components/NavSevices",function(){var n=w("fa0j");return{page:n.default||n}}])}},[["/WkX",1,0]]]);
