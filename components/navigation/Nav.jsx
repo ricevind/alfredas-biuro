@@ -1,7 +1,8 @@
 import css from "styled-jsx/css";
-import NavLink from "./NavLink";
-import { prefixHref } from "../../utils/prefixHref";
 import { rhythmUnit } from "../../styles/typography";
+import { pagesURLs } from "../../services/navigation";
+import NavLinkMain from "./nav-link/NavLinkMain";
+import NavLinkLogo from "./nav-link/NavLinkLogo";
 
 const NavStyles = css`
   nav {
@@ -10,36 +11,37 @@ const NavStyles = css`
     align-items: center;
     justify-content: center;
     margin-top: ${rhythmUnit()};
-    margin-bottom: ${rhythmUnit()};
   }
 
   nav > :global(a:not(:first-child)) {
     margin-left: 20px;
   }
-`;
 
-const pagesUrls = {
-  about: "/o-nas",
-  priceList: "/cennik",
-  services: "/uslugi",
-  contact: "/kontakt"
-};
+  .push-left {
+    margin-right: auto;
+  }
+`;
 
 export default function Nav() {
   return (
     <nav>
-      <NavLink as={pagesUrls.about} href={prefixHref(pagesUrls.about)}>
+      <span className="push-left">
+        <NavLinkLogo as={"/"} href={"/"}>
+          Biuro Alfreda Sobierajska
+        </NavLinkLogo>
+      </span>
+      <NavLinkMain as={pagesURLs.about} href={pagesURLs.about}>
         O nas
-      </NavLink>
-      <NavLink as={pagesUrls.services} href={prefixHref(pagesUrls.services)}>
+      </NavLinkMain>
+      <NavLinkMain as={pagesURLs.services} href={pagesURLs.services}>
         Usługi
-      </NavLink>
-      <NavLink as={pagesUrls.priceList} href={prefixHref(pagesUrls.priceList)}>
+      </NavLinkMain>
+      <NavLinkMain as={pagesURLs.priceList} href={pagesURLs.priceList}>
         Cennik
-      </NavLink>
-      <NavLink as={pagesUrls.contact} href={prefixHref(pagesUrls.contact)}>
+      </NavLinkMain>
+      <NavLinkMain as={pagesURLs.contact} href={pagesURLs.contact}>
         Kontakt
-      </NavLink>
+      </NavLinkMain>
       <style jsx>{NavStyles}</style>
     </nav>
   );

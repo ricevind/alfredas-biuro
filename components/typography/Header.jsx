@@ -1,4 +1,4 @@
-import { headerCSS } from "../styles/typography";
+import { headerCSS } from "../../styles/typography";
 
 export const Header = ({ size, children }) => {
   const HTag = sizeToHeader(size);

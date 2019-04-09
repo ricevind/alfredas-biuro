@@ -21,6 +21,7 @@ export const paragraphCSS = () => cssPartial`
     font-family: ${fonts.body};
     font-size: ${fontSizes.m};
     line-height:  ${lineHeight};
+    margin-top: ${rhythmUnit()};
 `;
 
 export const headerCSS = size => cssPartial`

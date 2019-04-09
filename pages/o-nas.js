@@ -1,8 +1,8 @@
-import Layout from "../../components/layout/Layout";
-import Nav from "../../components/navigation/Nav";
-import { Container } from "../../components/layout/Container";
-import { Header } from "../../components/typography/Header";
-import { Paragraph } from "../../components/Paragraph";
+import Layout from "../components/layout/Layout";
+import Nav from "../components/navigation/Nav";
+import { Container } from "../components/layout/Container";
+import { Header } from "../components/typography/Header";
+import { Paragraph } from "../components/typography/Paragraph";
 
 export default () => (
   <Layout>

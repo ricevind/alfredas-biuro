@@ -1,27 +1,14 @@
-import { headerCSS } from "../../styles/typography";
+import { paragraphCSS } from "../../styles/typography";
 
-export const Header = ({ size, children }) => {
-  const HTag = sizeToHeader(size);
-
+export const Paragraph = ({ children }) => {
   return (
-    <HTag>
+    <p>
       {children}
       <style jsx>{`
-        ${HTag} {
-          ${headerCSS(size)}
+        p {
+          ${paragraphCSS()}
         }
       `}</style>
-    </HTag>
+    </p>
   );
 };
-
-function sizeToHeader(size) {
-  const map = {
-    s: `h4`,
-    m: `h3`,
-    l: `h2`,
-    xl: `h1`
-  };
-
-  return map[size];
-}

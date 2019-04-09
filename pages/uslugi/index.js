@@ -1,36 +1,21 @@
-import Layout from "../components/layout/Layout";
-import Nav from "../components/navigation/Nav";
+import { useState } from 'react';
 
-export default () => (
+import Layout from "../../components/layout/Layout";
+import Nav from "../../components/navigation/Nav";
+import { Slide } from "../../components/Slide";
+import NavServices from "./components/NavSevices";
+import { Container } from "../../components/layout/Container";
+
+export default () => {
+  const [firstSlide, setFirstSlide] = useState(true)
+  return (
+
   <Layout>
     <Nav />
-    <div className="fadeIn-wrapper">
-      <div className="fadeIn">
-        <Nav />
-      </div>
-    </div>
-    <style jsx>
-      {`
-        @keyframes fadeIn {
-          0% {
-            transform: translateY(-250%);
-          }
-
-          100% {
-            transform: translateY(0);
-          }
-        }
-
-        .fadeIn-wrapper {
-          overflow: hidden;
-          position: relative;
-        }
-
-        .fadeIn {
-          position: relative;
-          animation: fadeIn 1s;
-        }
-      `}
-    </style>
+    <Slide shouldSlide={firstSlide}>
+      <NavServices />
+    </Slide>
+    <Container>Works</Container>
   </Layout>
-);
+)};
+

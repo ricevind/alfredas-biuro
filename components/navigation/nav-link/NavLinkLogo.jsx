@@ -4,17 +4,17 @@ import { fonts, fontSizes, lineHeight } from "../../../styles/typography";
 import { colors } from "../../../styles/colors";
 import NavLink from "./NavLink";
 
-const NavLinkMain = ({ as, href, children }) => {
+const NavLinkLogo= ({ as, href, children }) => {
   return (
     <NavLink as={as} href={href}>
-      {isActive => <MainAnchor isActive={isActive}>{children}</MainAnchor>}
+      {isActive => <LogoAnchor isActive={isActive}>{children}</LogoAnchor>}
     </NavLink>
   );
 };
 
-export default NavLinkMain;
+export default NavLinkLogo;
 
-const navLinkMainStyles = css`
+const navLinkLogoStyles = css`
   a {
     position: relative;
     text-decoration: none;
@@ -25,21 +25,14 @@ const navLinkMainStyles = css`
     cursor: pointer;
   }
 
-  a.active-link:after {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: -0.3em;
-    left: 0;
-    height: 0.1em;
-    width: 100%;
-    background-color: ${colors.accent.dark};
+  a.active-link {
+    color: orange;
   }
 `;
 
-const MainAnchor = ({isActive, onClick, children}) => (
+const LogoAnchor = ({isActive, onClick, children}) => (
   <a onClick={onClick} className={isActive ? `active-link` : ``}>
     {children}
-    <style jsx>{navLinkMainStyles}</style>
+    <style jsx>{navLinkLogoStyles}</style>
   </a>
 );
